@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="#home" class="brand"> Thanigaiyarasan I</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Hello, I am</p>
+            <h1>Thanigaiyarasan I</h1>
+            <p class="intro">
+              I am a <strong>designer/developer</strong> creating clean and modern digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="photo-placeholder"> <img src="Thanigai.jpeg"> </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+           I am an Information Technology student passionateabout Full Stack Development.
+          </p>
+          <p>
+            I enjoy building responsive websites,learning new technologies and solving real-world problems
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>HTML</h3>
+              <p>Structure and content for modern web pages.</p>
+            </article>
+            <article class="card">
+              <h3>CSS</h3>
+              <p>Clean layouts, responsive design, and visual styling.</p>
+            </article>
+            <article class="card">
+              <h3>JavaScript</h3>
+              <p>Interactive features and small web applications.</p>
+            </article>
+            <article class="card">
+              <h3>Design</h3>
+              <p>Thoughtful user experience and polished interfaces.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="card-grid">
+            <article class="card project-card">
+              <h3>Project One</h3>
+              <p>Fix My Ride</p>
+              <a href="#" class="text-link">View Project</a>
+            </article>
+            <article class="card project-card">
+              <h3>Project Two</h3>
+              <p>Smart Agriculture Platform</p>
+              <a href="#" class="text-link">View Project</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt-section">
+        <div class="container contact-box">
+          <h2>Contact</h2>
+          <p>Feel free to reach out for collaboration or a conversation.</p>
+          <ul class="contact-list">
+            <li>Email: thanigai353@gmail.com</li>
+            <li>LinkedIn: linkedin.com/in/thanigaiyarasan</li>
+            <li>GitHub: github.com/Thanigaiyarasan</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Thanigaiyarasan I. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
